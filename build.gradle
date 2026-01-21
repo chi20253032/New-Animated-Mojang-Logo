@@ -31,6 +31,8 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     modImplementation files('libs/darkloadingscreen.jar')
+    modImplementation "com.github.weisj:jsvg:1.6.0"
+    include "com.github.weisj:jsvg:1.6.0"
 }
 
 processResources {
